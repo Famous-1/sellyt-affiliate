@@ -58,7 +58,7 @@ export function AdminLayout() {
             >
               <Menu className="size-5" />
             </button>
-            <BrandMark to={routes.admin.dashboard} light />
+            <BrandMark to={routes.admin.dashboard} />
             <span className="hidden items-center gap-1.5 rounded-full border border-primary/40 px-2.5 py-1 text-xs font-semibold text-primary sm:inline-flex">
               <Shield className="size-3" />
               Admin
@@ -113,7 +113,7 @@ export function AdminLayout() {
           />
           <aside className="absolute inset-y-0 left-0 flex w-[280px] flex-col bg-[#111827] shadow-2xl">
             <div className="flex h-16 items-center justify-between border-b border-white/10 px-4">
-              <BrandMark to={routes.admin.dashboard} light />
+              <BrandMark to={routes.admin.dashboard} />
               <button
                 type="button"
                 className="rounded-lg p-2 text-white/70 hover:bg-white/10"
